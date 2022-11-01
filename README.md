@@ -1,19 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Bookstore
-In this project I built a calculator app called Math magicians with React components, React State and React props. I 
-added a math logic to make the calculator component work as desired. I also refactored the class Calculator components to 
-hooks.
+In this project I lay the foundations for a Bookstore website. I created the React part of the app and set up routing using React Router.
 
  ## Learning objectives
 - Use React components.
-- Use React props.
-- Use React state.
-- Use Events in a React App
-- Use React Hooks
+
 
 ## Built With
-
+- React Router
 - Create React App
 - JSX syntax
 
@@ -32,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 - If it suits you, on your local computer, create a directory in your preferred location (e.g in the Desktop or Document directory)
 
 ### Install
-- To clone the project on your machine: Type `git clone https://github.com/Jaymelfah/Math-Magician.git`.
+- To clone the project on your machine: Type `https://github.com/Jaymelfah/Bookstore.git`.
 - Run `npm install` in your terminal
 - To run the project on  live server:
 `npm run start`
@@ -47,6 +42,12 @@ To get a local copy up and running follow these simple example steps.
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
+
+## Acknowledgments
+
+- [Microverse](https://microverse.org)
+- Template design according to [Zeplin Project](https://app.zeplin.io/project/5b35a9e13227086040f8eb75/screen/5b695e29bb8c844f118f9378)
+
 
 ## Show your support
 
