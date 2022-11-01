@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  padding: 1.5rem;
+  background-color: #fafafa;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex {
   display: flex;
-  flex-direction: column;
+}
+
+.nav-container {
+  min-height: 5.98rem;
+  background-color: #fff;
+  justify-content: flex-start;
   align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.nav-container > h1 {
+  color: #0290ff;
+}
+
+.list {
+  list-style: none;
+  justify-content: space-around;
+  width: 15%;
+  padding: 0.8rem;
+}
+
+.books {
+  width: 25%;
+}
+
+.book-wrapper {
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+  width: 75rem;
+  min-height: 10.625rem;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
 }
 
-.App-link {
-  color: #61dafb;
+.booklist {
+  flex-direction: column;
+  gap: 0.938rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.remove-button {
+  width: 4.375rem;
+  padding: 5px;
+}
+
+.form {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.icon {
+  margin-left: 55%;
+  border: solid 1px #e8e8e8;
+  width: 2rem;
+  height: 2rem;
+  padding: 4px;
+  border-radius: 50%;
+  color: #0290ff;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
 }
