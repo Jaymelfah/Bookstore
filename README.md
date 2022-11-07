@@ -1,7 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Bookstore
-In this project I lay the foundations for a Bookstore website. I created the React part of the app and set up routing using React Router. I configured the Redux Store and wrote actions and reducers for adding and removing books.
+In this project I lay the foundations for a Bookstore website. I created the React part of the app and set up routing using React Router. I configured the Redux Store and wrote actions and reducers for adding and removing books. I linked React and Redux and 
+implemented add books and remove books functionalities.
 
  ## Learning objectives
 - Use React components.
