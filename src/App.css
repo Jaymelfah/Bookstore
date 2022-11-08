@@ -27,6 +27,7 @@ body {
 
 .nav-container > h1 {
   color: #0290ff;
+  padding-left: 2.8rem;
 }
 
 .list {
@@ -47,7 +48,7 @@ body {
   min-height: 10.625rem;
   justify-content: flex-start;
   align-items: center;
-  gap: 8rem;
+  gap: 3rem;
 }
 
 .book-wrapper {
@@ -60,6 +61,8 @@ body {
   margin-left: 16rem;
   align-items: center;
   gap: 1rem;
+  border-right: 1px solid #e8e8e8;
+  padding-right: 6rem;
 }
 
 .progress-circle {
@@ -71,13 +74,56 @@ body {
   rotate: 30deg;
 }
 
+.form-enclosure {
+  margin-top: 3rem;
+  width: 100%;
+  margin-left: 2.2rem;
+}
+
 .percentage {
   font-size: 2rem;
+}
+
+.completed {
+  color: #909090;
+  font-size: 0.875rem;
+}
+
+.chapter {
+  padding-left: 2rem;
+  margin-left: 0;
+  font-family: 'Roboto Slab', serif;
 }
 
 .booklist {
   flex-direction: column;
   gap: 0.938rem;
+}
+
+.chapter-title,
+.chap {
+  font-size: 0.813rem;
+  font-weight: 300;
+  color: #a2a2a2;
+  padding: 0.2rem;
+}
+
+.chap {
+  color: #232323;
+  font-size: 1rem;
+}
+
+.chapter-btn {
+  width: 11rem;
+  height: 2rem;
+  color: #fff;
+  font-weight: 300;
+  padding-inline: 1rem;
+  font-size: 0.813rem;
+  background-color: #0290ff;
+  margin-top: 1.5rem;
+  border: none;
+  border-radius: 5px;
 }
 
 .remove-button,
@@ -101,7 +147,35 @@ body {
 
 .form {
   margin-top: 1rem;
-  width: 100%;
+  width: 90%;
+  gap: 1rem;
+  align-items: center;
+  padding: 0;
+}
+
+.book-title-input {
+  width: 41rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+}
+
+.addbook {
+  width: 11rem;
+  height: 3rem;
+  color: #fff;
+  font-weight: 700;
+  padding-inline: 1rem;
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.813rem;
+  background-color: #0290ff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 1.2rem;
+}
+
+.author {
+  width: 17.8rem;
 }
 
 .icon {
@@ -139,4 +213,10 @@ body {
   font-family: 'Roboto Slab', serif;
   font-size: 0.87rem;
   font-weight: 300;
+}
+
+.form-header {
+  color: #a7a7a7;
+  font-size: 1.25rem;
+  font-weight: bold;
 }
