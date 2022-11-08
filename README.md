@@ -2,11 +2,12 @@
 
 # Bookstore
 In this project I lay the foundations for a Bookstore website. I created the React part of the app and set up routing using React Router. I configured the Redux Store and wrote actions and reducers for adding and removing books. I linked React and Redux and 
-implemented add books and remove books functionalities.
+implemented add books and remove books functionalities. I connected the bookstore to the Bookstore API and made the add and remove actions functional.
 
  ## Learning objectives
 - Use React components.
 - Redux
+- Connect with API
 
 ## Built With
 - React Router
@@ -14,6 +15,7 @@ implemented add books and remove books functionalities.
 - JSX syntax
 - Redux
 - Redux toolkit
+- Bookstore API
 
 ## Getting Started
 
