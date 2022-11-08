@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { nanoid } from 'nanoid';
-import { addbook } from '../redux/books/books';
+import { addbook, getbooks } from '../redux/books/books';
 
 const Form = () => {
   const [title, setTitle] = useState('');
@@ -13,10 +13,12 @@ const Form = () => {
       id: nanoid(),
       title,
       author,
+      category: '',
     };
     setTitle('');
     setAuthor('');
     dispatch(addbook(book));
+    dispatch(getbooks());
   };
 
   return (
