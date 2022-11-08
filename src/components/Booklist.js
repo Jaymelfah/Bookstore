@@ -7,7 +7,14 @@ const Booklist = (props) => {
 
   return (
     <ul className="booklist flex">
-      {books.map((book) => <Book key={book.id} title={book.title} author={book.author} />)}
+      {books.map((book) => (
+        <Book
+          key={book.id}
+          title={book.title}
+          author={book.author}
+          id={book.id}
+        />
+      ))}
     </ul>
 
   );
