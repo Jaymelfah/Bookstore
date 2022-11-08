@@ -26,11 +26,11 @@ const Book = (props) => {
           <button className="btn" type="button">Edit</button>
         </div>
       </div>
-      <div className="progress">
+      <div className="progress flex">
         <div className="progress-circle" />
         <div className="completion-status">
-          <span>64%</span>
-          <span>Completed</span>
+          <p className="percentage">64%</p>
+          <p className="completed">Completed</p>
         </div>
       </div>
       <div className="chapter">

@@ -58,6 +58,8 @@ body {
 
 .progress {
   margin-left: 16rem;
+  align-items: center;
+  gap: 1rem;
 }
 
 .progress-circle {
@@ -67,6 +69,10 @@ body {
   border-left: 6px solid #e8e8e8;
   border-radius: 50%;
   rotate: 30deg;
+}
+
+.percentage {
+  font-size: 2rem;
 }
 
 .booklist {
