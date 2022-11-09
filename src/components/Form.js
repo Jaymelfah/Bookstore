@@ -22,8 +22,9 @@ const Form = () => {
   };
 
   return (
-    <>
-      <form className="form" onSubmit={handleSubmit}>
+    <div className="form-enclosure">
+      <h2 className="form-header">ADD NEW BOOK</h2>
+      <form className="form flex" onSubmit={handleSubmit}>
         <input
           className="book-title-input"
           name="title"
@@ -33,16 +34,16 @@ const Form = () => {
           onChange={(e) => setTitle(e.target.value)}
         />
         <input
-          className="book-title-input"
+          className="book-title-input author"
           type="text"
           placeholder="Author"
           name="author"
           value={author}
           onChange={(e) => setAuthor(e.target.value)}
         />
-        <button type="submit">Add Book</button>
+        <button className="chapter-btn addbook" type="submit">Add Book</button>
       </form>
-    </>
+    </div>
 
   );
 };

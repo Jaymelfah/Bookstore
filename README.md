@@ -2,7 +2,7 @@
 
 # Bookstore
 In this project I lay the foundations for a Bookstore website. I created the React part of the app and set up routing using React Router. I configured the Redux Store and wrote actions and reducers for adding and removing books. I linked React and Redux and 
-implemented add books and remove books functionalities. I connected the bookstore to the Bookstore API and made the add and remove actions functional.
+implemented add books and remove books functionalities. I connected the bookstore to the Bookstore API and made the add and remove actions functional. Added styling to improve the user interface.
 
  ## Learning objectives
 - Use React components.
@@ -16,6 +16,9 @@ implemented add books and remove books functionalities. I connected the bookstor
 - Redux
 - Redux toolkit
 - Bookstore API
+
+## Live Demo
+Please use this [link](https://unique-jalebi-b421a9.netlify.app)
 
 ## Getting Started
 

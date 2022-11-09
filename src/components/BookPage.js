@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Booklist from './Booklist';
 import { getbooks } from '../redux/books/books';
-import Form from './Form';
 
 const BookPage = () => {
   const books = useSelector((state) => state.book);
@@ -16,7 +15,7 @@ const BookPage = () => {
   return (
     <>
       <Booklist books={books} />
-      <Form />
+
     </>
   );
 };
